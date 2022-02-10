@@ -14,6 +14,7 @@ public class Test1 {
 		System.out.println("java.sql.Date loaded by "+Date.class.getClassLoader());
 		System.out.println("java.util.LinkedList loaded by "+LinkedList.class.getClassLoader());
 		System.out.println("hello");
+		System.out.println("welocme to java");
 	}
 
 }
