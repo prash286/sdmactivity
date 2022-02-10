@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 this is for pull practice on git hub
+=======
+this is for pull practice
+>>>>>>> f39b94e877f956fcecccdad0e12b6069a6411b2b
