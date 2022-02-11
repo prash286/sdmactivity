@@ -17,4 +17,8 @@ Git Handson.
 14.Use git push command to push changes to Centralized repository.
 15.Track changes using git tool.
 
+16. Here we can use it easily gitHub repo
+17. This is the branch contain will be used by developer for adding new function and bug fixing.
+All developers start quickly bug fixing before sending to the test.
+
 i added new content
