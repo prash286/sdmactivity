@@ -12,7 +12,5 @@ public class Launcher {
 
 	private static void printClassesLoadedBy(String classLoaderType) {
 		System.out.println(classLoaderType + " ClassLoader : ");
-		Class<?>[] classes = ListLoadedClassesAgent.listLoadedClasses(classLoaderType);
-		Arrays.asList(classes).forEach(clazz -> System.out.println(clazz.getCanonicalName()));
 	}
 }
