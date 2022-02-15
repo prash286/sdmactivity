@@ -1,7 +1,9 @@
-FROM node:7
-WORKDIR /app
+FROM openjdk:11-jdk-alpine
+ARG JAR_FILE=javaJar/*.jar
+COPY ${JAR_FILE} app.jar
+ENTRYPOINT ["java","-jar","/app.jar"]
 
-RUN npm install nodejs
-COPY . /app
-CMD node server1.js
-EXPOSE 3000
+
+
+
+
