@@ -22,6 +22,11 @@ git commit -m "message"
 git  init 
 
 to Share your code you create a repo on remote server to whihc you will copy your local repository
+
+git diff
+Usage: git diff  
+
+This command shows the file differences which are not yet staged.
  
 
 git remote add origin ssh://username@server :/ repo.git

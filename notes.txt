@@ -1,0 +1,6 @@
+<<<<<<< HEAD
+https://github.com/prash286/day6Activity.git
+here we work for branching
+=======
+in productionbuild branch,to be merged in main, merge should be reflected after release1 merge
+>>>>>>> productionbuild
