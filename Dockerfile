@@ -1,7 +1,7 @@
 FROM openjdk:11-jdk
-ARG JAR_FILE=javaJar/*.jar
-COPY ${JAR_FILE} app.jar
-ENTRYPOINT ["java","-jar","/app.jar"]
+ARG WAR_FILE=day16_spring_mvc.war
+COPY ${WAR_FILE} app.war
+ENTRYPOINT ["java","-jar","/app.war"]
 
 
 
